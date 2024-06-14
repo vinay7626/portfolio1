@@ -31,12 +31,12 @@ const description =
  * passionate about, or enjoy,
  */
 const skillsList = [
-  "MongoDB ExpressJS ReactJS NodeJS",
-  "TailwindCSS",
+  "MongoDB",
+  "ExpressJS",
+  "ReactJS",
+  "NodeJS",
   "APIs",
-  "AJAX",
-  "Mongoose",
-  "Javascript",
+  "TailwindCSS",
 ];
 
 /**
