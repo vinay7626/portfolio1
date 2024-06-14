@@ -27,12 +27,12 @@ const siteProps = {
   name: "Vinay Varma",
   title: "Full Stack Developer MERN stack",
   email: "vinayvarma10101998@gmail.com",
-  gitHub: "https://github.com/vinay7626",
+  gitHub: "vinay7626",
   instagram: "varmavinay10",
-  linkedIn: "satyanadella",
+  linkedIn: "vinayvarma1998",
   medium: "",
-  twitter: "microsoft",
-  youTube: "Code",
+  twitter: "",
+  youTube: "",
 };
 
 const primaryColor = "#4E567E";
