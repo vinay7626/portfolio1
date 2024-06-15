@@ -35,24 +35,28 @@ const projectList = [
     description:
       "This is a Full stack MERN web app I designed where the user can register by filling up a registration form.",
     url: "https://dribbblevinay.netlify.app/",
+    stack: "Tech used: MERN, Cloudinary image API, Resend email API, TailwindCSS, Mongoose",
   },
   {
     title: "Employee Management System",
     description:
       "A MERN stack CRUD application designed to streamline the storage and retrieval of the Employee Information with in the organization.",
     url: "https://github.com/vinay7626/MERN-stack-CRUD-application",
+    stack: "Tech used: MERN, ChakraUI, Bootstrap, Mongoose",
   },
   {
     title: "Learning Bootstrap",
     description:
       "This is a landing page I designed using bootstrap Grid layout. It is fully responsive for all devices and screen sizes.",
     url: "https://github.com/vinay7626/HTML_Bootstrap_project",
+    stack: "Tech used: HTML, CSS, Bootstrap",
   },
   {
     title: "Realtime Chat App (Ongoing project)",
     description:
       "This is a Chat application that i will be hosting where the user can create an account and then chat with anyone else in real time using socket.io",
     url: "#",
+    stack: "Tech used: MERN, TailwindCSS, DaisyUI, Socket.io",
   },
 ];
 
@@ -72,7 +76,9 @@ const Portfolio = () => {
           {projectList.map((project) => (
             <div className="box" key={project.title}>
               <a href={project.url} target="_blank" rel="noopener noreferrer">
-                <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
+                <abbr title={project.stack} style={{textDecoration: "none"}}>
+                  <h3 style={{ flexBasis: "40px" }}>{project.title}</h3>
+                </abbr>
               </a>
               <p className="small">{project.description}</p>
             </div>
